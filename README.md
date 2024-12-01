@@ -10,14 +10,10 @@ Website **e-Kuota** is an e-commerce platform for purchasing internet data packa
 
 First, create a new React app using **Create React App**:
 
-````bash
+```bash
 npx create-react-app e-kuota
 cd e-kuota
-
-
-## 1. Set Up Your React Project
-
-First, create a new React app using **Create React App**:
+```
 
 ## 2. Install Dependencies
 
@@ -26,7 +22,7 @@ npx create-react-app e-kuota
 cd e-kuota
 ````
 
-## 4. Configure json-server globally
+## 3. Configure json-server globally
 
 ```bash
 npm install -g json-server
