@@ -1,0 +1,248 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "juan",
+      "password": "juan123",
+      "role": "customer"
+    },
+    {
+      "id": "3",
+      "username": "filla",
+      "password": "filla123",
+      "role": "customer"
+    },
+    {
+      "id": "4",
+      "username": "hanief",
+      "password": "hanief123",
+      "role": "customer"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Juan",
+      "phoneNumber": "081234567890"
+    },
+    {
+      "id": "3",
+      "name": "Filla",
+      "phoneNumber": "089876543210"
+    },
+    {
+      "id": "4",
+      "name": "Hanief",
+      "phoneNumber": "082345678901"
+    }
+  ],
+  "packages": {
+    "Telkomsel": [
+      {
+        "id": "1",
+        "name": "1GB - Daily",
+        "price": "Rp 10.000",
+        "type": "Harian",
+        "description": "Daily use for basic browsing and messaging",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/03/Telkomsel-Logo.png"
+      },
+      {
+        "id": "2",
+        "name": "2GB - Daily",
+        "price": "Rp 15.000",
+        "type": "Harian",
+        "description": "Great for daily social media and light streaming",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/03/Telkomsel-Logo.png"
+      },
+      {
+        "id": "3",
+        "name": "5GB - Weekly",
+        "price": "Rp 30.000",
+        "type": "Mingguan",
+        "description": "Perfect for weekly moderate browsing and streaming",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/03/Telkomsel-Logo.png"
+      },
+      {
+        "id": "4",
+        "name": "10GB - Weekly",
+        "price": "Rp 50.000",
+        "type": "Mingguan",
+        "description": "Great for heavy weekly usage",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/03/Telkomsel-Logo.png"
+      },
+      {
+        "id": "5",
+        "name": "20GB - Monthly",
+        "price": "Rp 100.000",
+        "type": "Bulanan",
+        "description": "Perfect for light streaming and work",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/03/Telkomsel-Logo.png"
+      },
+      {
+        "id": "6",
+        "name": "50GB - Monthly",
+        "price": "Rp 250.000",
+        "type": "Bulanan",
+        "description": "Ideal for all heavy internet users",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/03/Telkomsel-Logo.png"
+      }
+    ],
+    "Indosat": [
+      {
+        "id": "7",
+        "name": "1GB - Daily",
+        "price": "Rp 8.000",
+        "type": "Harian",
+        "description": "Basic browsing and messaging",
+        "logo": "https://logowik.com/content/uploads/images/indosat2865.logowik.com.webp"
+      },
+      {
+        "id": "8",
+        "name": "3GB - Weekly",
+        "price": "Rp 25.000",
+        "type": "Mingguan",
+        "description": "Moderate social media and light streaming",
+        "logo": "https://logowik.com/content/uploads/images/indosat2865.logowik.com.webp"
+      },
+      {
+        "id": "9",
+        "name": "7GB - Weekly",
+        "price": "Rp 40.000",
+        "type": "Mingguan",
+        "description": "Great for streaming and moderate gaming",
+        "logo": "https://logowik.com/content/uploads/images/indosat2865.logowik.com.webp"
+      },
+      {
+        "id": "10",
+        "name": "15GB - Monthly",
+        "price": "Rp 70.000",
+        "type": "Bulanan",
+        "description": "Perfect for casual internet use",
+        "logo": "https://logowik.com/content/uploads/images/indosat2865.logowik.com.webp"
+      },
+      {
+        "id": "11",
+        "name": "30GB - Monthly",
+        "price": "Rp 110.000",
+        "type": "Bulanan",
+        "description": "Suitable for families or shared usage",
+        "logo": "https://logowik.com/content/uploads/images/indosat2865.logowik.com.webp"
+      },
+      {
+        "id": "12",
+        "name": "100GB - Monthly",
+        "price": "Rp 300.000",
+        "type": "Bulanan",
+        "description": "Massive data plan for all needs",
+        "logo": "https://logowik.com/content/uploads/images/indosat2865.logowik.com.webp"
+      }
+    ]
+  },
+  "transactions": [
+    {
+      "id": "1c49",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "1GB - Daily",
+      "price": "Rp 10.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T05:20:07.414Z",
+      "status": "rejected"
+    },
+    {
+      "id": "1187",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "1GB - Daily",
+      "price": "Rp 10.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T05:25:22.388Z",
+      "status": "approved"
+    },
+    {
+      "id": "c9a8",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "1GB - Daily",
+      "price": "Rp 10.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T06:09:56.287Z",
+      "status": "approved"
+    },
+    {
+      "id": "8058",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "50GB - Monthly",
+      "price": "Rp 250.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T07:05:50.718Z",
+      "status": "approved"
+    },
+    {
+      "id": "4a26",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "2GB - Daily",
+      "price": "Rp 15.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T07:26:41.580Z",
+      "status": "approved"
+    },
+    {
+      "id": "77a7",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "2GB - Daily",
+      "price": "Rp 15.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T07:41:38.341Z",
+      "status": "approved"
+    },
+    {
+      "id": "6903",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "5GB - Weekly",
+      "price": "Rp 30.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T07:45:29.273Z",
+      "status": "rejected"
+    },
+    {
+      "id": "57c1",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "1GB - Daily",
+      "price": "Rp 10.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T07:47:21.849Z",
+      "status": "approved"
+    },
+    {
+      "id": "8789",
+      "customer": "Juan",
+      "phoneNumber": "081234567890",
+      "package": "1GB - Daily",
+      "price": "Rp 10.000",
+      "provider": "Telkomsel",
+      "paymentMethod": "GoPay",
+      "date": "2024-12-01T07:47:21.849Z",
+      "status": "pending"
+    }
+  ]
+}

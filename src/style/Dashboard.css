@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1.2em;
+  color: #34495e;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1em;
+  color: #7f8c8d;
+}
+
+.provider-btn {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+  transition: all 0.3s ease;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.provider-btn.selected {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.4);
+}
+
+.provider-btn:hover {
+  background-color: #e8f5e9;
+  color: #388e3c;
+  transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal-container {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.modal-header {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modal-content {
+  font-size: 1.1em;
+  color: #7f8c8d;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.modal-footer button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+}
+
+.modal-footer button:hover {
+  background-color: #388E3C;
+  transform: translateY(-2px);
+}
+
+.modal-footer button:active {
+  transform: translateY(1px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .modal-container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .provider-btn {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+
+  h5 {
+    font-size: 1.5em;
+  }
+
+  h6 {
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,136 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #555555; /* Latar belakang abu-abu muda */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+}
+
+/* Container for login form */
+.login-container {
+  background-color: #ffffff; /* Latar belakang putih untuk form */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 420px;
+}
+
+/* App title and tagline */
+.app-title {
+  font-size: 2.2em;
+  font-weight: 600;
+  color: #333; /* Warna lebih gelap untuk judul */
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  text-align: center;
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #0073e6;
+}
+
+/* Icon inside input */
+.input-group .input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #0073e6;
+}
+
+/* Button styling */
+.btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #0073e6; /* Warna biru yang solid */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005bb5; /* Warna lebih gelap saat hover */
+  transform: scale(1.05);
+}
+
+.btn:disabled {
+  background-color: #b0c4de; /* Warna lebih terang saat tombol dinonaktifkan */
+  cursor: not-allowed;
+}
+
+/* Spinner */
+.fas.fa-spinner {
+  margin-right: 10px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .app-title {
+    font-size: 1.8em;
+  }
+
+  .tagline {
+    font-size: 1em;
+  }
+}
